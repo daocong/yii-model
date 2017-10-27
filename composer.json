@@ -1,83 +1,65 @@
 {
 
-"name":
-"daocong/yii-model",
+    "name":
+            "daocong/yii-model",
 
-"description":
-"根据模型自动生成代码",
+    "description":
+            "根据模型自动生成代码",
 
-"keywords":
-[
+    "keywords":
+            [
 
-"yii2",
+                "yii2",
 
-"model"
+                "model"
 
-],
+            ],
 
-"homepage":
-"https://github.com/daocong/yii-model",
+    "homepage":
+            "https://github.com/daocong/yii-model",
 
-"type":
-"yii2-extension",
+    "type":
+            "yii2-extension",
 
-"license":
-"MIT",
+    "support":
+            {
 
-"support":
-{
+                "source":
+                        "https://github.com/daocong/yii-model"
+            },
 
-"source":
-"https://github.com/daocong/yii-model"
+    "authors":
+            [
 
-},
+                {
 
-"authors":
-[
+                    "name":
+                            "王聪",
 
-{
+                    "email":
+                            "594277625@qq.com"
+                }
 
-"name":
-"王聪",
+            ],
 
-"email":
-"594277625@qq.com"
+    "require":
+            {
 
-}
+                "php":
+                        ">=5.4.0",
 
-],
+                "yiisoft/yii2":
+                        ">=2.0.0"
+            },
 
-"require":
-{
+    "autoload":
+            {
 
-"php":
-">=5.4.0",
+                "psr-4":
+                        {
 
-"yiisoft/yii2":
-">=2.0.6"
-
-
-},
-
-"autoload":
-{
-
-"psr-4":
-{
-
-"wc\\":
-""
-
-}
-
-},
-
-"config":
-{
-
-"process-timeout":
-1800
-
-}
-
+                            "wc\\":
+                                    ""
+                        }
+            }
 }
