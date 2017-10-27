@@ -6,7 +6,7 @@
  * and open the template in the editor.
  */
 
-namespace wc\model;
+namespace model;
 
 /**
  * Description of Module
