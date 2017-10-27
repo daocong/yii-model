@@ -6,11 +6,13 @@
  * and open the template in the editor.
  */
 
+namespace model\controllers;
+
 /**
- * Description of rwr
+ * Description of ModelController
  *
  * @author wc
  */
-class rwr {
+class ModelController {
     //put your code here
 }
